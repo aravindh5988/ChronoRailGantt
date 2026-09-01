@@ -29,8 +29,7 @@
 
   Configure a list data source containing task objects and map:
 
-   Property        Mendix attribute type
-  
+    
    Task name     :      String
 
    Start date    :     Date and time
