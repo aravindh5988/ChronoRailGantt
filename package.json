@@ -1,0 +1,22 @@
+{
+  "name": "chronorailgantt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A configurable Gantt chart pluggable widget for Mendix 11.",
+  "widgetName": "ChronoRailGantt",
+  "packagePath": "com.rbt",
+  "config": {
+    "projectPath": ".."
+  },
+  "scripts": {
+    "start": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "release": "pluggable-widgets-tools release:web --output=../widgets/ChronoRailGantt.mpk",
+    "lint": "pluggable-widgets-tools lint"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "11.12.1",
+    "@napi-rs/lzma-win32-x64-msvc": "^1.5.1",
+    "typescript": "^5.6.3"
+  }
+}

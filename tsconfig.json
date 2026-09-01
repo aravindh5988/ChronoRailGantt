@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/@mendix/pluggable-widgets-tools/configs/tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

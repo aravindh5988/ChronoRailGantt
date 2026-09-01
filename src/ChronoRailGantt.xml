@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="com.rbt.chronorailgantt.ChronoRailGantt" pluginWidget="true" needsEntityContext="false" offlineCapable="true" supportedPlatform="Web" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+  <name>ChronoRail Gantt</name>
+  <description>Displays tasks from a Mendix list data source on an interactive Gantt timeline.</description>
+  <studioProCategory>Data widgets</studioProCategory>
+  <helpUrl>https://docs.mendix.com/apidocs-mxsdk/apidocs/pluggable-widgets/</helpUrl>
+  <icon>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</icon>
+  <properties>
+    <propertyGroup caption="Data">
+      <property key="data" type="datasource" isList="true" required="true">
+        <caption>Task data source</caption>
+        <description>The list of task objects to render.</description>
+      </property>
+      <property key="taskName" type="attribute" dataSource="data" required="true">
+        <caption>Task name</caption>
+        <description>Text displayed for each task.</description>
+        <attributeTypes>
+          <attributeType name="String" />
+        </attributeTypes>
+      </property>
+      <property key="taskStart" type="attribute" dataSource="data" required="true">
+        <caption>Start date</caption>
+        <description>The task start date and time.</description>
+        <attributeTypes>
+          <attributeType name="DateTime" />
+        </attributeTypes>
+      </property>
+      <property key="taskEnd" type="attribute" dataSource="data" required="true">
+        <caption>End date</caption>
+        <description>The task end date and time.</description>
+        <attributeTypes>
+          <attributeType name="DateTime" />
+        </attributeTypes>
+      </property>
+      <property key="taskProgress" type="attribute" dataSource="data" required="false">
+        <caption>Progress</caption>
+        <description>Optional percentage from 0 through 100.</description>
+        <attributeTypes>
+          <attributeType name="Integer" />
+          <attributeType name="Decimal" />
+        </attributeTypes>
+      </property>
+      <property key="taskColor" type="attribute" dataSource="data" required="false">
+        <caption>Task color</caption>
+        <description>Optional CSS color for each task.</description>
+        <attributeTypes>
+          <attributeType name="String" />
+        </attributeTypes>
+      </property>
+      <property key="taskStatus" type="attribute" dataSource="data" required="false">
+        <caption>Task status</caption>
+        <description>Optional String task status. Status colors and the status filter use this value.</description>
+        <attributeTypes>
+          <attributeType name="String" />
+        </attributeTypes>
+      </property>
+      <property key="taskDependencies" type="attribute" dataSource="data" required="false">
+        <caption>Dependencies</caption>
+        <description>Optional comma-separated predecessor object IDs for dependency arrows.</description>
+        <attributeTypes>
+          <attributeType name="String" />
+        </attributeTypes>
+      </property>
+    </propertyGroup>
+    <propertyGroup caption="Timeline">
+      <property key="viewMode" type="enumeration" defaultValue="week">
+        <caption>Initial view</caption>
+        <description>Timeline scale.</description>
+        <enumerationValues>
+          <enumerationValue key="day">Day</enumerationValue>
+          <enumerationValue key="week">Week</enumerationValue>
+          <enumerationValue key="month">Month</enumerationValue>
+        </enumerationValues>
+      </property>
+      <property key="rowHeight" type="integer" defaultValue="44">
+        <caption>Row height</caption>
+        <description>Height of every task row in pixels.</description>
+      </property>
+      <property key="showToday" type="boolean" defaultValue="true">
+        <caption>Show today marker</caption>
+        <description>Shows a vertical line for the current date.</description>
+      </property>
+      <property key="emptyMessage" type="string" defaultValue="No tasks to display.">
+        <caption>Empty message</caption>
+        <description>Message displayed when the data source is empty.</description>
+      </property>
+    </propertyGroup>
+    <propertyGroup caption="Interaction">
+      <property key="allowEditing" type="boolean" defaultValue="false">
+        <caption>Allow drag editing</caption>
+        <description>Allows users to drag a task to update its start and end dates.</description>
+      </property>
+      <property key="onTaskClick" type="action" dataSource="data" required="false">
+        <caption>On task click</caption>
+        <description>Action executed after a task is selected. The selected task is passed to the action.</description>
+      </property>
+      <property key="onTaskChanged" type="action" dataSource="data" required="false">
+        <caption>On task changed</caption>
+        <description>Action executed after a task date is changed. The changed task and new dates are passed to the action.</description>
+        <actionVariables>
+          <actionVariable key="changedStartDate" type="DateTime" caption="New start date" />
+          <actionVariable key="changedEndDate" type="DateTime" caption="New end date" />
+        </actionVariables>
+      </property>
+    </propertyGroup>
+    <propertyGroup caption="Visibility">
+      <systemProperty key="Visibility" />
+    </propertyGroup>
+  </properties>
+</widget>
