@@ -52,3 +52,14 @@
   - Web applications
   - Offline-capable widget
   - No third-party runtime dependencies
+    
+## Screenshots
+<img width="1008" height="881" alt="image" src="https://github.com/user-attachments/assets/d1f3e495-aaf0-4905-9a60-fb637b8c2245" />
+
+<img width="1003" height="881" alt="image" src="https://github.com/user-attachments/assets/c53b2df9-3e3d-4e7a-905e-463a87455c3b" />
+
+<img width="1771" height="612" alt="image" src="https://github.com/user-attachments/assets/031dca46-afdf-413d-b4cf-bfb7f5f993a5" />
+
+
+
+
